@@ -5,7 +5,6 @@ const cors = require("cors");
 
 connectToDatabase();
 
-// komentar
 app.use(cors());//sprecava cors policy upozorenja
 
 app.use(express.json({ extended: false }));//koristimo json za kreiranje postova
