@@ -8,7 +8,7 @@ html {
 html body {
   margin: 0;
   padding: 0;
-  background: #1e003a;
+  background: #ffffff;
 }
 
 html body .flex__center {
@@ -47,11 +47,11 @@ html body .p__size {
 }
 
 html body .app_color_font {
-  color: rgb(211, 197, 0);
+  color: rgb(65, 161, 190);
 }
 
 html body .app_color_background {
-  background: rgb(211, 197, 0);
+  background: rgb(65, 161, 190);
 }
 
 html body .font__bold {
@@ -59,12 +59,12 @@ html body .font__bold {
 }
 
 html body .font__p {
-  color: #f4f4f4;
+  color: #182d8a;
   font-family: "Asap Condensed", sans-serif;
 }
 
 html body .white__color__font {
-  color: #f4f4f4;
+  color: #182d8a;
 }
 
 html body .hamburger-bar {
@@ -135,7 +135,7 @@ html body .main__nav .nav-links {
 
 html body .main__nav .nav-links .nav__link {
   font-size: 1em;
-  color: #e8e9e9;
+  color: #182d8a;
   -webkit-transition: border 0.2s ease-in-out;
   transition: border 0.2s ease-in-out;
 }
@@ -162,8 +162,8 @@ html body .main__nav .nav-links .nav__link {
 }
 
 html body .main__nav .nav-links .nav__link:hover {
-  color: rgb(211, 197, 0);
-  border-bottom: 1px solid rgb(211, 197, 0);
+  color: rgb(65, 161, 190);
+  border-bottom: 1px solid rgb(65, 161, 190);
 }
 
 html body .sidebar-wrapper {
@@ -199,7 +199,7 @@ html body .sidebar-wrapper .close-sidebar-wrapper {
 }
 
 html body .sidebar-wrapper .close-sidebar-wrapper .close-sidebar-icon {
-  color: #f4f4f4;
+  color: #182d8a;
   font-size: 1.8em;
   margin-right: 1em;
 }
@@ -224,7 +224,7 @@ html body .sidebar-wrapper .sidebar-links {
 
 html body .sidebar-wrapper .sidebar-links .sidebar-link {
   margin: 1em 0;
-  color: #f4f4f4;
+  color: #182d8a;
   text-decoration: none;
   font-size: 1.5em;
 }
@@ -333,7 +333,7 @@ html body .dashboard-wrapper .text-wrapper .text-header-wrapper {
 
 html body .landing-wrapper .text-wrapper .text-header-wrapper span,
 html body .dashboard-wrapper .text-wrapper .text-header-wrapper span {
-  color: rgb(211, 197, 0);
+  color: rgb(65, 161, 190);
   font-family: "Kaushan Script", sans-serif;
   font-size: 1.7em;
   font-weight: bold;
@@ -341,16 +341,17 @@ html body .dashboard-wrapper .text-wrapper .text-header-wrapper span {
 
 html body .landing-wrapper .text-wrapper .text-button-wrapper a,
 html body .dashboard-wrapper .text-wrapper .text-button-wrapper a {
-  color: #f4f4f4;
+  color: #182d8a;
   text-decoration: none;
   text-align: center;
   font-family: "Barlow", sans-serif;
   padding: 5px;
-  border: 1px solid rgb(211, 197, 0);
+  border: 1px solid rgb(65, 161, 190);
   font-size: 1em;
-  background: rgb(211, 197, 0);
+  background: rgb(65, 161, 190);
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
+  border-radius: 25px;
 }
 
 @media (min-width: 1024px) {
@@ -363,6 +364,8 @@ html body .dashboard-wrapper .text-wrapper .text-button-wrapper a {
 html body .landing-wrapper .text-wrapper .text-button-wrapper a:hover,
 html body .dashboard-wrapper .text-wrapper .text-button-wrapper a:hover {
   background: #39c6f1;
+  border-radius: 25px;
+  padding-left: 10px;
 }
 
 html body .href__style__remove {
@@ -513,7 +516,7 @@ html body .href__style__remove {
   .user-posts
   .user-posts-header-wrapper
   .user-posts-header {
-  color: #f4f4f4;
+  color: #182d8a;
 }
 
 .account-page-wrapper .user-posts .user-post {
@@ -629,7 +632,7 @@ html body .href__style__remove {
   .post__likes__comments__deleteBtn-wrapper
   .post__likes__comments__deleteBtn
   .removePostBtn {
-  color: #f4f4f4;
+  color: #182d8a;
   padding: 5px;
   -webkit-transition: background 0.3s ease-in-out;
   transition: background 0.3s ease-in-out;
@@ -721,7 +724,7 @@ html body .href__style__remove {
   flex-wrap: wrap;
   width: 101%;
   height: 20%;
-  color: #f4f4f4;
+  color: #182d8a;
   -webkit-transition: background 0.2s ease-in-out;
   transition: background 0.2s ease-in-out;
   padding: 5px 0;
@@ -815,7 +818,7 @@ html body .href__style__remove {
   .output-buttons
   .output-button {
   text-align: center;
-  color: #f4f4f4;
+  color: #182d8a;
   margin: 1em;
   -webkit-transition: background 0.3s ease-in-out;
   transition: background 0.3s ease-in-out;
@@ -899,7 +902,7 @@ html body .href__style__remove {
   padding: 1em;
   margin-right: 0.5em;
   background: #37c1eb;
-  color: #f4f4f4;
+  color: #182d8a;
   border-radius: 5px;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
@@ -962,7 +965,7 @@ html body .href__style__remove {
   padding: 1em;
   margin-right: 0.5em;
   background: #37c1eb;
-  color: #f4f4f4;
+  color: #182d8a;
   border-radius: 5px;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
@@ -1002,7 +1005,7 @@ html body .href__style__remove {
   width: 80%;
   height: 80%;
   background: #fff;
-  border: 1px solid #e8e9e9;
+  border: 1px solid #182d8a;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1040,7 +1043,7 @@ html body .href__style__remove {
   .dashboard-links-wrapper
   .dashboard-links
   .dashboard-link:hover {
-  color: #f4f4f4;
+  color: #182d8a;
   background: #37c1eb;
   cursor: pointer;
 }
@@ -1109,7 +1112,7 @@ html body .href__style__remove {
   width: 100%;
   height: 60%;
   background: #fff;
-  border: 1px solid #e8e9e9;
+  border: 1px solid #182d8a;
 }
 
 @media (min-width: 1024px) {
@@ -1294,7 +1297,7 @@ html body .href__style__remove {
   .inputs-wrapper
   .button-wrapper
   .button-letter {
-  color: #f4f4f4;
+  color: #182d8a;
   padding: 0 0.75em;
 }
 
@@ -1418,7 +1421,7 @@ textarea {
   flex-wrap: wrap;
   width: 50vw;
   height: 45%;
-  color: #f4f4f4;
+  color: #182d8a;
   -webkit-transition: background 0.2s ease-in-out;
   transition: background 0.2s ease-in-out;
   padding: 5px 5px;
@@ -1455,6 +1458,7 @@ textarea {
 .users-header .search-user-wrapper .user-search-button:hover {
   cursor: pointer;
   background: #39c6f1;
+  
 }
 
 .link-to-post-page-button {
@@ -1473,6 +1477,7 @@ textarea {
   border-radius: 10px;
   -webkit-transition: background 0.3s ease-in-out;
   transition: background 0.3s ease-in-out;
+  
 }
 
 @media (min-width: 1024px) {
@@ -1495,7 +1500,7 @@ textarea {
   text-align: center;
   width: 100%;
   height: 100%;
-  color: #f4f4f4;
+  color: #182d8a;
   text-decoration: none;
 }
 
@@ -1553,8 +1558,8 @@ textarea {
   align-items: center;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  border: 1px solid #2a0909;
-  background: #3f3f3f;
+  border: 1px solid #cae3f8;
+  background: #cae3f8;
   width: 50%;
   margin-bottom: 0.5em;
   padding: 1em 0;
@@ -2122,4 +2127,16 @@ textarea {
   .main-post {
     width: 92%;
   }
+}
+
+#Logo {
+  padding-left: 30px;
+  color: rgb(65, 161, 190);
+  font-family: "Kaushan Script", sans-serif;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+#text-sekcija {
+  padding-left: 30px;
 }

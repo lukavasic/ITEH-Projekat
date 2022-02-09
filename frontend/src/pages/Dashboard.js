@@ -1,5 +1,5 @@
 import React from "react";
-import forumIkonica from "../forumIkonica.png";
+import forumIkonica from "../forumIkonica.jpg";
 import { Link } from "react-router-dom";
 
 const Dashboard = () => {

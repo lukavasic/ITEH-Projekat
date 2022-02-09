@@ -5,13 +5,13 @@ const NavbarLinks = ({ isLoggedIn, logOut }) => {
   return (
     <div className="nav-links">
       <Link to="/users" className="href__style__remove nav__link">
-        Korisnici
-        <i className="fas fa-user" style={{ color: "rgb(99, 82, 24)" }}></i>
+        Korisnici{" "}
+        <i className="fas fa-user" style={{ color: "rgb(65, 161, 190)" }}></i>
       </Link>
 
       <Link to="/topics" className="href__style__remove nav__link">
         Postovi{" "}
-        <i className="fas fa-comments" style={{ color: "rgb(99, 82, 24)" }}></i>
+        <i className="fas fa-comments" style={{ color: "rgb(65, 161, 190)" }}></i>
       </Link>
 
       <Link

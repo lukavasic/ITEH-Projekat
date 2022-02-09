@@ -66,12 +66,14 @@ const TopicPost = ({
 
             <div className=" font__bold p__size likes-length-item font__p">
               {post.likes.length}
+              
             </div>
           </div>
 
           <div className="topic-comment-section  font__bold p__size">
             <i className="far fa-comment"></i>
             {post.comments.length}
+            <p>{" "}</p>
           </div>
 
           <div className="link-to-post-page-button app_color_background font__p font__bold p__size">
