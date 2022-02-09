@@ -11,6 +11,11 @@ html body {
   background: #ffffff;
 }
 
+/* Da nema crte ispod teksta */
+a {
+  text-decoration: none;
+}
+
 html body .flex__center {
   display: -webkit-box;
   display: -ms-flexbox;
