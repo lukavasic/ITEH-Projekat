@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://lukavasic:lukavasic98@cluster0.lzhn6.mongodb.net/baza?retryWrites=true&w=majority",
+  "jsonWebTokenSecret": "helloWorld"
+}
