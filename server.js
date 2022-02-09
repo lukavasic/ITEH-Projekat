@@ -18,3 +18,5 @@ let PORT = process.env.PORT || 5000;
 
 //metoda preko koje povezujemo nas server sa gore definisanim brojem porta
 app.listen(PORT, () => console.log(`Server is on port: ${PORT}`));
+
+// proba
