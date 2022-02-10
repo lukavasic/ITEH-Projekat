@@ -8,7 +8,8 @@ html {
 html body {
   margin: 0;
   padding: 0;
-  background: #ffffff;
+  background-image:url(b2.jpg);
+  background-size: cover;
 }
 
 /* Da nema crte ispod teksta */
@@ -140,9 +141,14 @@ html body .main__nav .nav-links {
 
 html body .main__nav .nav-links .nav__link {
   font-size: 1em;
+  background-color: #cae3f8;
   color: #182d8a;
+  padding: 7px 15px;
+  text-align: center;
+  font-weight: bold;
   -webkit-transition: border 0.2s ease-in-out;
   transition: border 0.2s ease-in-out;
+  border-radius: 5px;
 }
 
 @media (max-width: 1024px) {
@@ -167,8 +173,7 @@ html body .main__nav .nav-links .nav__link {
 }
 
 html body .main__nav .nav-links .nav__link:hover {
-  color: rgb(65, 161, 190);
-  border-bottom: 1px solid rgb(65, 161, 190);
+  background-color: #39c6f1;
 }
 
 html body .sidebar-wrapper {
@@ -1430,6 +1435,7 @@ textarea {
   -webkit-transition: background 0.2s ease-in-out;
   transition: background 0.2s ease-in-out;
   padding: 5px 5px;
+  border-radius: 5px;
 }
 
 @media (min-width: 1024px) {

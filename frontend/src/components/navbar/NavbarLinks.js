@@ -34,11 +34,10 @@ const NavbarLinks = ({ isLoggedIn, logOut }) => {
         to="/account"
         className="href__style__remove nav__link"
         style={{ display: isLoggedIn ? "flex" : "none" }}
-      >
-        Nalog{" "}
+      >Nalog{" "}
         <i
           className="fas fa-address-card"
-          style={{ color: "rgb(99, 82, 24)" }}
+          style={{ color: "rgb(65, 161, 190)"}}
         ></i>
       </Link>
 
@@ -48,7 +47,7 @@ const NavbarLinks = ({ isLoggedIn, logOut }) => {
         style={{ display: isLoggedIn ? "flex" : "none" }}
       >
         Napiši post{" "}
-        <i className="fas fa-edit" style={{ color: "rgb(99, 82, 24)" }}></i>
+        <i className="fas fa-edit" style={{ color: "rgb(65, 161, 190)" }}></i>
       </Link>
 
       <Link
@@ -60,7 +59,7 @@ const NavbarLinks = ({ isLoggedIn, logOut }) => {
         Odjava{" "}
         <i
           className="fas fa-sign-out-alt"
-          style={{ color: "rgb(99, 82, 24)" }}
+          style={{ color: "rgb(65, 161, 190)" }}
         ></i>
       </Link>
     </div>
