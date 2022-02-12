@@ -14,14 +14,14 @@ const UserProfileData = ({ userProfile }) => {
         <p style={{ marginRight: ".4em" }} className="font__bold">
           Prezime:
         </p>{" "}
-        {userProfile.last_name}
+        {userProfile.lastName}
       </div>
 
       <div className="font__p data-item">
         <p style={{ marginRight: ".4em" }} className="font__bold">
           Korisničko ime:
         </p>{" "}
-        {userProfile.username}
+        {userProfile.userName}
       </div>
 
       <div className="font__p data-item">

@@ -15,7 +15,7 @@ const TopicSection = ({
 
       <div className="topic-user">
         <img src={post.avatar} className="topic-avatar" alt="" />
-        <p className="font__p p__size">{post.userName}</p>
+        <p className="font__p p__size">{post.name}</p>
       </div>
 
       <div className="topic-section font__p">

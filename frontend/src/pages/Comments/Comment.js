@@ -24,7 +24,7 @@ const Comment = ({
 
       <div className="topic-user">
         <img src={comment.avatar} className="topic-avatar" alt="" />
-        <p className="font__p p__size">{comment.userName}</p>
+        <p className="font__p p__size">{comment.name}</p>
       </div>
 
       <div className="topic-section">
