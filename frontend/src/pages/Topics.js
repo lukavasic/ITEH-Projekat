@@ -18,7 +18,7 @@ const Topics = ({
   let [dataFromSearch, setDataFromSearch] = useState("");
   let [topicsSortType, setTopicsSortType] = useState({
     isTheOldest: false,
-    isTheMostRecent: true,
+    isTheMostRecent: false,
     isTheMostCommented: false,
     isTheMostLiked: false,
   });
