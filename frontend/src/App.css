@@ -120,6 +120,19 @@ html body .main__nav .logo-wrapper {
   margin-top: 1em;
 }
 
+.flex-container {
+  display: flex;
+}
+
+.flex-child {
+  flex: 1;
+  border: 2px solid;
+}  
+
+.flex-child:first-child {
+  margin-right: 20px;
+} 
+
 html body .main__nav .nav-links {
   height: 100%;
   width: 20%;

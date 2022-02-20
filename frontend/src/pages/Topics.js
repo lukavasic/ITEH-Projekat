@@ -96,77 +96,77 @@ const Topics = ({
           Postovi
         </p>
         <br />
+          <div class="flex-container">
+            <div class="flex-child"
+              className={
+                isTheOldest
+                  ? "header-checkbox app_color_font p__size font__p font__bold"
+                  : "header-checkbox app_color_font p__size font__p"
+              }
+            >
+              <input
+                type="checkbox"
+                value={isTheOldest}
+                checked={isTheOldest}
+                onChange={() => changeTopicsType("isTheOldest")}
+              />
+              <p onClick={() => changeTopicsType("isTheOldest")}>Najstariji</p>
+            </div>
 
-        <div
-          className={
-            isTheOldest
-              ? "header-checkbox app_color_font p__size font__p font__bold"
-              : "header-checkbox app_color_font p__size font__p"
-          }
-        >
-          <input
-            type="checkbox"
-            value={isTheOldest}
-            checked={isTheOldest}
-            onChange={() => changeTopicsType("isTheOldest")}
-          />
-          <p onClick={() => changeTopicsType("isTheOldest")}>Najstariji</p>
-        </div>
+            <div class="flex-child"
+              className={
+                isTheMostRecent
+                  ? "header-checkbox app_color_font p__size font__p font__bold"
+                  : "header-checkbox app_color_font p__size font__p"
+              }
+            >
+              <input
+                onChange={() => changeTopicsType("isTheMostRecent")}
+                value={isTheMostRecent}
+                checked={isTheMostRecent}
+                type="checkbox"
+              />
+              <p onClick={() => changeTopicsType("isTheMostRecent")}>
+                Najnoviji
+              </p>
+            </div>
 
-        <div
-          className={
-            isTheMostRecent
-              ? "header-checkbox app_color_font p__size font__p font__bold"
-              : "header-checkbox app_color_font p__size font__p"
-          }
-        >
-          <input
-            onChange={() => changeTopicsType("isTheMostRecent")}
-            value={isTheMostRecent}
-            checked={isTheMostRecent}
-            type="checkbox"
-          />
-          <p onClick={() => changeTopicsType("isTheMostRecent")}>
-            Najnoviji
-          </p>
-        </div>
+            <div class="flex-child"
+              className={
+                isTheMostLiked
+                  ? "header-checkbox app_color_font p__size font__p font__bold"
+                  : "header-checkbox app_color_font p__size font__p"
+              }
+            >
+              <input
+                type="checkbox"
+                checked={isTheMostLiked}
+                value={isTheMostLiked}
+                onChange={() => changeTopicsType("isTheMostLiked")}
+              />
+              <p onClick={() => changeTopicsType("isTheMostLiked")}>
+                Najlajkovaniji
+              </p>
+            </div>
 
-        <div
-          className={
-            isTheMostLiked
-              ? "header-checkbox app_color_font p__size font__p font__bold"
-              : "header-checkbox app_color_font p__size font__p"
-          }
-        >
-          <input
-            type="checkbox"
-            checked={isTheMostLiked}
-            value={isTheMostLiked}
-            onChange={() => changeTopicsType("isTheMostLiked")}
-          />
-          <p onClick={() => changeTopicsType("isTheMostLiked")}>
-            Najlajkovaniji
-          </p>
-        </div>
-
-        <div
-          className={
-            isTheMostCommented
-              ? "header-checkbox app_color_font p__size font__p font__bold"
-              : "header-checkbox app_color_font p__size font__p"
-          }
-        >
-          <input
-            type="checkbox"
-            checked={isTheMostCommented}
-            value={isTheMostCommented}
-            onChange={() => changeTopicsType("isTheMostCommented")}
-          />
-          <p onClick={() => changeTopicsType("isTheMostCommented")}>
-            Najvise komentara
-          </p>
-        </div>
-
+            <div class="flex-child"
+              className={
+                isTheMostCommented
+                  ? "header-checkbox app_color_font p__size font__p font__bold"
+                  : "header-checkbox app_color_font p__size font__p"
+              }
+            >
+              <input
+                type="checkbox"
+                checked={isTheMostCommented}
+                value={isTheMostCommented}
+                onChange={() => changeTopicsType("isTheMostCommented")}
+              />
+              <p onClick={() => changeTopicsType("isTheMostCommented")}>
+                Najvise komentara
+              </p>
+            </div>
+            </div>
         <form className="search-topic-wrapper">
           <textarea
             type="submit"
