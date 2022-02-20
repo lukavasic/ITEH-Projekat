@@ -18,12 +18,6 @@ const Dashboard = () => {
           </div>
 
           <div className="dashboard-link font__p font__bold p__size">
-            <Link to="/contact-us" className="dashboard-link-href">
-              Kontaktiraj nas
-            </Link>
-          </div>
-
-          <div className="dashboard-link font__p font__bold p__size">
             <Link to="/change-password" className="dashboard-link-href">
               Promeni lozinku
             </Link>

@@ -42,6 +42,18 @@ const NavbarLinks = ({ isLoggedIn, logOut }) => {
       </Link>
 
       <Link
+        to="/dashboard"
+        className="href__style__remove nav__link"
+        style={{ display: isLoggedIn ? "flex" : "none" }}
+      >
+        Upravljanje {" "}
+        <i 
+          className="fas fa-user"
+          style={{ color: "rgb(65, 161, 190)"}}> 
+        </i>
+      </Link>
+
+      <Link
         to="/add-post"
         className="href__style__remove nav__link"
         style={{ display: isLoggedIn ? "flex" : "none" }}

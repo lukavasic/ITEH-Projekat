@@ -885,21 +885,17 @@ html body .href__style__remove {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background: #5a5a5a;
+  background: rgba(0, 0, 0, 0.07);
   width: 80%;
   height: 15%;
-  margin-bottom: 0.75em;
+  margin: 0.75em;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
   color: #1b1a1a;
 }
 
-.change-profile-page-wrapper .change-profile-section .input-wrapper:last-child {
-  margin-bottom: 0em;
-}
-
 .change-profile-page-wrapper .change-profile-section .input-wrapper:hover {
-  color: #414141;
+  color: rgba(0, 0, 0, 0.05);
   cursor: pointer;
   background: #37c1eb;
 }
@@ -1026,14 +1022,14 @@ html body .href__style__remove {
 
 .dashboard-wrapper .dashboard-links-wrapper .dashboard-links {
   width: 80%;
-  height: 80%;
+  height: 50%;
   background: #fff;
   border: 1px solid #182d8a;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-  justify-content: space-around;
+  justify-content: space-evenly;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -1059,7 +1055,7 @@ html body .href__style__remove {
   border: 1px solid rgba(0, 0, 0, 0.05);
   background: rgba(0, 0, 0, 0.05);
   width: 80%;
-  height: 10%;
+  height: 20%;
 }
 
 .dashboard-wrapper
