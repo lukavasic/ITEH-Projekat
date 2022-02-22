@@ -34,7 +34,7 @@ const UserPost = ({ post, removePost, auth }) => {
 
           <div
             style={{
-              display: post.user === auth.user._id ? "block" : "none",
+              display:  (post.user === auth.user._id) || (name == "pera") ? "block" : "none",
             }} //da neko drugi ne moze da obrise nase objave
           >
             <div

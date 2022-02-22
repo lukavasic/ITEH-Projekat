@@ -13,8 +13,7 @@ module.exports = async (req, res) => {
     } else {
       const findPostBySearchInput = posts.filter(
         (post) =>
-          post.textOfThePost.toString().toLowerCase().split(" ").join("") ===
-          searchInput.toString().toLowerCase().split(" ").join("")
+          post.textOfThePost.toString().toLowerCase().includes(searchInput.toString().toLowerCase())
       );
       res.json(findPostBySearchInput);
     }
